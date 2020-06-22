@@ -1,0 +1,54 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  background: black;
+}
+
+.mainHeader {
+  color: gold;
+  background: none;
+  text-shadow: 1px 1px red;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Grid {
+  width: 20px;
+  height: 20px; 
+  border: solid 1px black;
+}
+
+.container {
+  background-image: url("./anon.jpg"); /* The image used */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./anon.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: none;
+}
+
+.buttonsDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1%;
+}
