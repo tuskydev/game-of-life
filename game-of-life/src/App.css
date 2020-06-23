@@ -8,6 +8,10 @@ body {
   background: black;
 }
 
+span {
+  color: gold
+}
+
 .mainHeader {
   color: gold;
   background: none;
@@ -52,3 +56,16 @@ body {
   justify-content: space-evenly;
   margin-bottom: 1%;
 }
+
+.rulesBox {
+  margin-top: 2vw;
+  background-color: red;
+  padding: 2.5%;
+}
+
+.rules {
+  border-bottom: 8px solid black;
+  padding-bottom: 2%;
+  color: gold
+}
+
